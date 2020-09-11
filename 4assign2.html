@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        let people=[
+        {
+            name:"shree",
+            age:16,
+            country:"india",
+            hobby:["singing","dancing"]},
+            {
+             name:"riya",
+             age:24,
+             country:"india",
+             hobby:["drawing"]
+            },
+            {
+                name:"george",
+                age:32,
+                country:"japan",
+                hobby:["video games","singing"]
+            },
+            {
+                name:"rosh",
+                age:34,
+                country:"serbia",
+                hobby:["dancing"]
+            }
+            ]
+
+            function age1(){
+                people.forEach(function(ob){
+                    if(ob.age<30)
+                    {
+                        console.log(ob);
+                    }
+                });
+            }
+            age1();
+            function country1(){
+                people.forEach(function(ele){
+                    if(ele.country=="india")
+                    {
+                        console.log(ele);
+                    }
+                });
+            }
+            country1();
+            
+    </script>
+</body>
+</html>

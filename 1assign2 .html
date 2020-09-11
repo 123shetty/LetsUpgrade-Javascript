@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>create a webpage containing an image and three buttons</h1>
+<img src="https://fairytalesatus.files.wordpress.com/2014/03/cinderella.png";
+ width="100px"
+ id="image"/>
+<button onclick="changeImage()">change</button><br>
+<button onclick="anotherImage()">change again</button><br>
+<button onclick="onImage()">change it</button>
+
+
+<script>
+    function changeImage()
+    {
+      const ele=document.getElementById("image");
+      const newUrl="https://upload.wikimedia.org/wikipedia/en/e/e1/Snow_white_disney.png";
+      width="100px";
+      ele.src = newUrl;
+    }
+     function anotherImage()
+     {
+       const ele=document.getElementById("image");
+      const newUrl1="https://api.time.com/wp-content/uploads/2014/02/frozen-let-it-go-covers.jpg";
+      width="100px";
+      ele.src = newUrl1;
+     }
+     function onImage()
+     {
+      const ele=document.getElementById("image");
+      const newUrl2="https://upload.wikimedia.org/wikipedia/en/6/6a/Rapunzel_tangled.png";
+      width="100px";
+      ele.src = newUrl2;
+    }
+</script>
+</body>
+</html

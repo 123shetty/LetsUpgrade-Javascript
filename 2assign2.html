@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>create a webpage containig two input fields and a button</h3>
+<input type="text"  placeholder="Name"/><br>
+<button onclick="show()">copy</button>
+<input type="text"  placeholder="Name"/>
+    
+<script>
+function show()
+{
+    const ele=document.getElementsByTagName("input");
+       ele[1].value=ele[0].value;  
+}
+</script>
+</body>
+</html>

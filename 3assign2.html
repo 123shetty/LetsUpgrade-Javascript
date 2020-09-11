@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h3>create an array of objects with objects havingthe following properties</h3>
+<script>
+    let people=
+        {
+            name:["shree","riya","george"],
+            age:[16,32,27],
+            country:["india","india","japan"],
+            hobby:["reading","dancing","painting"],
+            spot:function(){
+                console.log(this.name);
+                console.log(this.age);
+                console.log(this.country);
+                console.log(this.hobby);
+            },
+        };
+        people.spot();
+       
+</script>
+</body>
+</html>
